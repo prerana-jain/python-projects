@@ -102,8 +102,8 @@ else:
             break         
         else: 
             print("Passwords Mismatched!")     
-            f = open("data.txt", "w+")     
-            f.write(password) 
+    f = open("data.txt", "w+")     
+    f.write(password) 
     f.close()     
     enc.encrypt_file("data.txt") 
     print("Please restart the program to complete the setup")     
